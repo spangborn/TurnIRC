@@ -26,7 +26,7 @@
 				saved = jQuery(input).val();
 			}
 			if (messages.length > 0 && currentMsg > 0) {
-                console.log("Upkey: " + messages[currentMsg]);
+                	console.log("Upkey: " + messages[currentMsg]);
 				jQuery(input).val(messages[currentMsg]);
 				currentMsg--;
 			}
